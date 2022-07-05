@@ -1,0 +1,26 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    margin:0;
+    padding:0;
+}
+
+.formulario {
+    margin-left: 30%;
+}
+
+@media only screen and (max-width: 600px){
+
+    .formulario {
+        padding-top: 42px;
+        margin-left: 20%;
+    }
+}
+
+input{
+    color:#D34270;;
+}
+
+#mensaje {
+    margin-top: 10px;
+    display:grid;
+}

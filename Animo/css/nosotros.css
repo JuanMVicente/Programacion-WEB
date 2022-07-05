@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    margin:0;
+    padding:0;
+    background-color:#aecbc8;
+}
+
+
+
+.sobreNosotros { 
+    background-color:rgb(66, 69, 71);
+    text-align: center;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+}
+
+.parrafo {
+    font-size: 30px; 
+    border: #212121 1px solid; 
+    margin: 0px; 
+    background-color:#aecbc8;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.titulo { 
+    border: #212121 1px solid; 
+    font-size: 50px; 
+    min-height: 200 px;
+    background-color:#be154a;
+    width: 300px;
+    flex: 1 0 auto;
+    color:aliceblue;
+
+}
+
+
+.qs {
+    display: flex;
+    flex-direction: row;
+    height: 226px;
+}
+.ve {
+    display: flex;
+    flex-direction: row;
+    height: 226px;
+}
+
+.nm {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 226px;
+}
+
+@media only screen and (max-width: 1150px){
+    .qs {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .ve {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .nm {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .titulo{
+        width: auto;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 600px){
+
+    .qs {
+        padding-top: 41.5px;
+    }
+
+}

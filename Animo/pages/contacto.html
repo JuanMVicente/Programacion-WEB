@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/icono.ico">
+    <title>Animo - Contacto</title>
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="stylesheet" href="../css/navegador.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Macondo&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bc25d40502.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/bc25d40502.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <ul class="nav__ul">
+                <li class="nav__li"><i class="fast fa-solid fa-house-user"></i><a href="../index.html" class="link">Home</a></li>
+                <li class="nav__li"><i class="fast fa-solid fa-basket-shopping"></i><a href="productos.html" class="link">Productos</a> </li>
+                <li class="nav__li"><i class="fast fa-solid fa-address-card"></i><a href="nosotros.html" class="link">Sobre Nosotros</a></li>
+                <li class="nav__li"><i class="fast fa-solid fa-comment-dots"></i><a href="contacto.html" class="link">Contacto</a> </li>
+                <li class="nav__li"><i class="fast fa-solid fa-right-to-bracket"></i><a href="acceso.html">Acceso</a></li>
+
+            </ul>
+            <ul class="nav__responsive-ul">
+                <div class="nav__responsive-button-container">
+                    <div class="nav__responsive-button"><i class="fa-solid fa-bars"></i></div>
+                </div>
+                <div class="nav__li-container">
+                    <li class="nav__responsive-li"><i class="fast fa-solid fa-house-user"></i><a href="../index.html" class="link">Home</a></li>
+                    <li class="nav__responsive-li"><i class="fast fa-solid fa-basket-shopping"></i><a href="productos.html" class="link">Productos</a> </li>
+                    <li class="nav__responsive-li"><i class="fast fa-solid fa-address-card"></i><a href="nosotros.html" class="link">Sobre Nosotros</a></li>
+                    <li class="nav__responsive-li"><i class="fast fa-solid fa-comment-dots"></i><a href="contacto.html" class="link">Contacto</a> </li>
+                    <li class="nav__responsive-li"><i class="fast fa-solid fa-right-to-bracket"></i><a href="acceso.html">Acceso</a></li>
+                </div>  
+            </ul>
+        </nav>
+    </header>
+    <div class="formulario">
+     <h1>Contacto</h1>
+      <form action="contacto.html" method="post">
+        <p><label for="nombre">Nombre: <input type="text" id="nombre" > </label> </p>
+        <p><label for="apellido">Apellido: <input type="text" id="apellido" > </label> </p>
+        <p><label for="mail">Correo Electronico: <input type="text" id="mail" placeholder="mailpersonal@mail.com" > </label> </p>
+        
+        <p><label>Como conoció Ánimo 
+            <select id="conocer">
+                <option value="opcion">Elija una opcion..</option>
+                <option value="recomendacon">Recomendacion</option>
+                <option value="redes" selected>Redes Sociales</option>
+                <option value="internet">Internet</option>
+                <option value="ubicacion">Ubicacion</option>
+                <option value="otros">Otro</option>
+            </select>
+        </label></p>
+
+       
+        <p>Intereses: </p>
+        <input type="checkbox" value="jugos" checked>
+        <label>Jugos Detox</label><br />
+        <input type="checkbox" value="comida" checked>
+        <label>Comida Vegana</label><br />
+        <input type="checkbox" value="trabajo">
+        <label>Trabajar con nosotros</label><br />
+        <input type="checkbox" value="otros">
+        <label>Otros</label>
+
+        <div id="mensaje"><label for="mensaje">Mensaje: <textarea cols="40" rows="3" placeholder="Escriba su mensaje..."></textarea> </label> </div>
+   
+        <br>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+</body>
+</html>
